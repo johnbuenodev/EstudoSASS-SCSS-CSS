@@ -1,0 +1,26 @@
+$bg-color: #EEE;
+$title-background: #333;
+$main-color: #FFF;
+
+
+.container{
+    background-color: $bg-color;
+    padding: 20px;
+
+    #title{
+        background-color: $title-background;
+        color: $main-color;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+/* processando de scss ou sass para styles.css 
+
+sass --watch sass/styles.sass css/styles.css
+
+e para  styles.css.min  
+sass --watch scss/styles.scss:css/styles.css 
+sass --watch scss/styles.scss:css/styles.min.css --style compressed
+
+*/

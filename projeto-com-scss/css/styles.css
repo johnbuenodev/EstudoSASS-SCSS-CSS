@@ -1,0 +1,22 @@
+.container {
+  background-color: #EEE;
+  padding: 20px;
+}
+.container #title {
+  background-color: #333;
+  color: #FFF;
+  text-align: center;
+  padding: 10px;
+}
+
+/* processando de scss ou sass para styles.css 
+
+sass --watch sass/styles.sass css/styles.css
+
+e para  styles.css.min  
+sass --watch scss/styles.scss:css/styles.css 
+sass --watch scss/styles.scss:css/styles.min.css --style compressed
+
+*/
+
+/*# sourceMappingURL=styles.css.map */

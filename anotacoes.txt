@@ -1,0 +1,194 @@
+fundamentos de SASS e SCSS
+
+regras de estilização
+
+recursos de variaveis com SASS e SCSS
+
+funcionalidade de SASS e SCSS
+
+
+/////
+
+
+arquitetura de projetos com SASS e SCSS
+
+valores e operadores
+
+modulos do SASS
+
+////
+
+
+Pre processador
+
+O pre processador é um software que recebe uma entrada de dados e gera uma saida.
+
+modificando os dados que possa ser aceita em outro software.
+
+o SASS é um pre processador de css.
+
+Ele recebe instruções avançadas que não são entendidas pelo CSS, e transforma em CSS puro.
+
+Programa em uma linguagem de alto nivel e compila para uma linguagem de baixo nivel 
+
+///
+
+O sass é um pre processador de CSS
+
+Aumenta a produtividade de codigo para o desenvolvimento web
+
+como: variaveis mixins(funcoes) nesting(regras de CSS) herança ...
+
+Sass se escreve menos codigo e gera CSS com qualidade.
+
+
+///
+
+
+nodej e npm 
+
+vs code e extensao que facilita o codigo em sass
+
+extesoes do SASS do VSCODE
+
+node -v
+
+npm -v
+
+
+///
+
+instalando SASS
+
+npm install -g sass
+
+sass -v
+
+///
+
+instalando a extensao no vscode
+
+auto complete / highlight de codigo e formatação de codigo
+
+////
+
+CRIAR ARQUIVO HTML ESTRUTURA BASICA ##########
+
+PRA CRIAR ARQUIVO HTML EM BRANCO DIGITAR ! + tab
+
+CRIAR TAG LINK #############
+
+link + tab
+
+CRIAR DIV ##########
+
+div.container   cria a div com class "container"
+
+CRIAR H1 ##########
+
+h1.#title    cria o h1 com id="title"
+
+
+////
+
+Após ter criado as pastas SASS e CSS   
+
+criar arquivo SASS e rodar na raiz do projeto o:
+
+sass  caminhoPasta/sass-criado-styles.sass  caminhoSaidaCssPasta/css_styles.css
+
+
+exemplo: sass sass/styles.sass css/styles.css
+
+
+Utilizar com o comando --watch porq assim ele ficara observando e
+aplicando as alterações em tempo de execução.
+
+exemplo: sass --watch sass/styles.sass css/styles.css
+
+///
+
+DEBUGAR   
+
+debug sass
+
+
+///////
+
+
+
+PRA compilar geração de arquivo SCSS para CSS utilizei o comando
+
+sass --watch scss/styles.scss:css/styles.css
+
+
+////
+
+
+Comentarios no CSS
+
+/*
+
+
+/*!
+
+////
+
+comentario no SASS
+
+//isso não vai ser processado e integrado no CSS
+
+/*  esse comentario vai ser adicionado no CSS
+
+//
+Esse intervalo de comentario
+não vai ser add no CSS
+//
+
+/*
+Esse comentario
+de varias
+linhas
+vai ser adicionado 
+no CSS
+
+////
+
+
+INTERPOLAçÂO
+
+
+#{variavel + variavel2}
+
+
+///
+
+GErando arquivo CSS minificado apartir do SASS
+
+
+///
+
+
+CSS minificado melhora o desempenho do cliente ao acessar o recurso e carregar os dados.
+
+DE: styles.css
+
+PARA: styles.min.css
+
+
+////
+
+
+CONVERTENDO PARA CSS MINIFICADO
+
+ARQUIVO STYLES.SCSS
+
+COMANDO:
+
+sass --watch scss/styles.scss:css/styles.min.css --style compressed
+
+
+**melhor arquivo para a produção(PARA O CLIENTE)
+
+////
+
